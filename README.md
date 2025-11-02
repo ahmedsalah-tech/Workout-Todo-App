@@ -56,14 +56,3 @@ The project is a monorepo with two main directories:
     ```
 
     **Important**: The `.env` file contains sensitive information and should **not** be committed to version control.
-
-## Development Workflow
-
-To run both the frontend and backend servers concurrently for development, use the following command from the project root directory:
-
-```bash
-npm run dev
-```
-
-- The backend server will start on `http://localhost:4000` and will automatically restart on file changes using `nodemon`.
-- The frontend development server will start on `http://localhost:3000`.
