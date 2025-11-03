@@ -1,0 +1,7 @@
+node_modules
+
+.env
+
+users.txt
+
+creds.txt
